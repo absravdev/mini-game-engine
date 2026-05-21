@@ -1,0 +1,95 @@
+# ============================================================================
+# Visual Studio / C++ .gitignore
+# ============================================================================
+
+# --- Visual Studio user-specific & cache files ---
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.sdf
+*.opendb
+*.aps
+*.ncb
+
+# --- Build output ---
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+
+# --- Compiler intermediate files ---
+*.obj
+*.o
+*.lib
+*.exe
+*.dll
+*.exp
+*.pdb
+*.ipdb
+*.iobj
+*.ilk
+*.tlog
+*.idb
+*.pch
+*.ipch
+*.res
+*.tlh
+*.tli
+*.meta
+*.map
+
+# --- IntelliSense ---
+ipch/
+*.aps
+*.tmp
+
+# --- ReSharper / CodeRush / other Visual Studio plugins ---
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+*.ncrunch*
+.*crunch*.local.xml
+
+# --- NuGet (in case it sneaks in) ---
+packages/
+*.nupkg
+
+# --- CMake (if you ever add a CMakeLists.txt) ---
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+build/
+
+# --- OS junk ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+$RECYCLE.BIN/
+
+# --- Editor leftovers ---
+*.swp
+*.swo
+*~
+.vscode/
+
+# --- Game-specific runtime artifacts ---
+# Don't commit the user's persistent high score
+naves_record.txt
